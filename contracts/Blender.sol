@@ -322,7 +322,7 @@ interface IERC20 {
 contract Blender {
     using SafeMath for uint256;
     
-    uint256 public constant EXCHANGE_DELTA    = 10*10**18;
+    //uint256 public constant EXCHANGE_DELTA    = 10*10**18;
     uint256 public constant SHAKE_PRICE_START = 1000*10**18;//MILK
     uint256 public constant SHAKE_PRICE_STEP  = 10*10**18;//MILK
     
